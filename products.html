@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Fragrances - Essence</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Essence</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="products.html" class="nav-link active">Fragrances</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Products Hero -->
+    <section class="products-hero">
+        <div class="container">
+            <h1>Our Fragrance Collection</h1>
+            <p>Discover your perfect scent from our curated collection</p>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-section">
+        <div class="container">
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All Fragrances</button>
+                <button class="filter-btn" data-filter="woody">Woody</button>
+                <button class="filter-btn" data-filter="floral">Floral</button>
+                <button class="filter-btn" data-filter="fresh">Fresh</button>
+                <button class="filter-btn" data-filter="oriental">Oriental</button>
+            </div>
+
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="woody">
+                    <div class="product-image" style="background: linear-gradient(135deg, #8B4513 0%, #D2691E 100%);"></div>
+                    <div class="product-info">
+                        <h3>Sandalwood Royal</h3>
+                        <p class="product-desc">Rich, warm sandalwood with hints of amber and vanilla. Perfect for evening wear and special occasions.</p>
+                        <div class="product-specs">
+                            <span class="spec"><i class="fas fa-clock"></i> Long-lasting: 8-10 hours</span>
+                            <span class="spec"><i class="fas fa-calendar"></i> Season: All Year</span>
+                            <span class="spec"><i class="fas fa-wind"></i> Intensity: Strong</span>
+                        </div>
+                        <div class="price">₹4,899</div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card" data-category="floral">
+                    <div class="product-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <div class="product-info">
+                        <h3>Jasmine Noir</h3>
+                        <p class="product-desc">Exotic jasmine with tuberose and white musk. A romantic and captivating floral scent.</p>
+                        <div class="product-specs">
+                            <span class="spec"><i class="fas fa-clock"></i> Long-lasting: 6-8 hours</span>
+                            <span class="spec"><i class="fas fa-calendar"></i> Season: Spring/Summer</span>
+                            <span class="spec"><i class="fas fa-wind"></i> Intensity: Moderate</span>
+                        </div>
+                        <div class="price">₹4,299</div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card" data-category="fresh">
+                    <div class="product-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <div class="product-info">
+                        <h3>Aqua Marine</h3>
+                        <p class="product-desc">Crisp aquatic notes with sea salt and bergamot. Refreshing and perfect for daily wear.</p>
+                        <div class="product-specs">
+                            <span class="spec"><i class="fas fa-clock"></i> Long-lasting: 4-6 hours</span>
+                            <span class="spec"><i class="fas fa-calendar"></i> Season: Summer</span>
+                            <span class="spec"><i class="fas fa-wind"></i> Intensity: Light</span>
+                        </div>
+                        <div class="price">₹3,799</div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card" data-category="oriental">
+                    <div class="product-image" style="background: linear-gradient(135deg, #FFD700 0%, #FF8C00 100%);"></div>
+                    <div class="product-info">
+                        <h3>Amber Oud</h3>
+                        <p class="product-desc">Luxurious oud with amber, saffron, and rose. An opulent and sophisticated fragrance.</p>
+                        <div class="product-specs">
+                            <span class="spec"><i class="fas fa-clock"></i> Long-lasting: 10-12 hours</span>
+                            <span class="spec"><i class="fas fa-calendar"></i> Season: Fall/Winter</span>
+                            <span class="spec"><i class="fas fa-wind"></i> Intensity: Very Strong</span>
+                        </div>
+                        <div class="price">₹5,499</div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card" data-category="floral">
+                    <div class="product-image" style="background: linear-gradient(135deg, #FF69B4 0%, #FF1493 100%);"></div>
+                    <div class="product-info">
+                        <h3>Rose Velvet</h3>
+                        <p class="product-desc">Velvety rose petals with peony and violet. A delicate and feminine floral bouquet.</p>
+                        <div class="product-specs">
+                            <span class="spec"><i class="fas fa-clock"></i> Long-lasting: 5-7 hours</span>
+                            <span class="spec"><i class="fas fa-calendar"></i> Season: Spring</span>
+                            <span class="spec"><i class="fas fa-wind"></i> Intensity: Moderate</span>
+                        </div>
+                        <div class="price">₹4,099</div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card" data-category="fresh">
+                    <div class="product-image" style="background: linear-gradient(135deg, #32CD32 0%, #006400 100%);"></div>
+                    <div class="product-info">
+                        <h3>Citrus Zest</h3>
+                        <p class="product-desc">Zesty lemon, bergamot, and green tea notes. Energizing and perfect for morning wear.</p>
+                        <div class="product-specs">
+                            <span class="spec"><i class="fas fa-clock"></i> Long-lasting: 3-5 hours</span>
+                            <span class="spec"><i class="fas fa-calendar"></i> Season: Spring/Summer</span>
+                            <span class="spec"><i class="fas fa-wind"></i> Intensity: Light</span>
+                        </div>
+                        <div class="price">₹3,499</div>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card" data-category="woody">
+                    <div class="product-image" style="background: linear-gradient(135deg, #2F4F4F 0%, #708090 100%);"></div>
+                    <div class="product-info">
+                        <h3>Leather & Tobacco</h3>
+                        <p class="product-desc">Bold leather with tobacco leaf and patchouli. A masculine and confident scent.</p>
+                        <div class="product-specs">
+                            <span class="spec"><i class="fas fa-clock"></i> Long-lasting: 8-10 hours</span>
+                            <span class="spec"><i class="fas fa-calendar"></i> Season: Fall/Winter</span>
+                            <span class="spec"><i class="fas fa-wind"></i> Intensity: Strong</span>
+                        </div>
+                        <div class="price">₹4,699</div>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card" data-category="oriental">
+                    <div class="product-image" style="background: linear-gradient(135deg, #800020 0%, #C41E3A 100%);"></div>
+                    <div class="product-info">
+                        <h3>Vanilla Bourbon</h3>
+                        <p class="product-desc">Warm vanilla with bourbon and tonka bean. Comforting and perfect for cozy evenings.</p>
+                        <div class="product-specs">
+                            <span class="spec"><i class="fas fa-clock"></i> Long-lasting: 7-9 hours</span>
+                            <span class="spec"><i class="fas fa-calendar"></i> Season: All Year</span>
+                            <span class="spec"><i class="fas fa-wind"></i> Intensity: Moderate</span>
+                        </div>
+                        <div class="price">₹4,299</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Size Guide -->
+    <section class="size-guide">
+        <div class="container">
+            <h2>Available Sizes</h2>
+            <div class="sizes-grid">
+                <div class="size-option">
+                    <h4>30ml</h4>
+                    <p>Perfect for trying new scents or travel</p>
+                    <div class="size-price">Starting at ₹2,499</div>
+                </div>
+                <div class="size-option">
+                    <h4>50ml</h4>
+                    <p>Our most popular size for daily use</p>
+                    <div class="size-price">Starting at ₹3,499</div>
+                </div>
+                <div class="size-option">
+                    <h4>100ml</h4>
+                    <p>Best value for your signature scent</p>
+                    <div class="size-price">Starting at ₹4,999</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Essence</h3>
+                    <p>Luxury fragrances for the modern individual</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Fragrances</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> info@essence.com</p>
+                    <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Fragrance Street, Mumbai</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Essence Fragrances. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
